@@ -1,8 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitfinexConnector.Core", "BitfinexConnector.Core\BitfinexConnector.Core.csproj", "{0AF8F3F3-2200-4B42-964C-89AE651119DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AF8F3F3-2200-4B42-964C-89AE651119DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AF8F3F3-2200-4B42-964C-89AE651119DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AF8F3F3-2200-4B42-964C-89AE651119DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AF8F3F3-2200-4B42-964C-89AE651119DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
