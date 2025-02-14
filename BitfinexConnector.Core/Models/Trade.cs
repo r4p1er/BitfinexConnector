@@ -3,32 +3,32 @@ namespace BitfinexConnector.Core.Models;
 public class Trade
 {
     /// <summary>
-    /// Валютная пара
+    ///     Валютная пара
     /// </summary>
     public string Pair { get; set; } = null!;
 
     /// <summary>
-    /// Цена трейда
+    ///     Цена трейда
     /// </summary>
     public decimal Price { get; set; }
 
     /// <summary>
-    /// Объем трейда
+    ///     Объем трейда
     /// </summary>
     public decimal Amount { get; set; }
 
     /// <summary>
-    /// Направление (buy/sell)
+    ///     Направление (buy/sell)
     /// </summary>
     public string Side { get; set; } = null!;
 
     /// <summary>
-    /// Время трейда
+    ///     Время трейда
     /// </summary>
     public DateTimeOffset Time { get; set; }
 
     /// <summary>
-    /// Id трейда
+    ///     Id трейда
     /// </summary>
     public string Id { get; set; } = null!;
 }
